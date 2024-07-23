@@ -1,5 +1,5 @@
 // components/SafeHtml.tsx
-import DOMPurify from "dompurify";
+import { sanitize } from "dompurify";
 import React from "react";
 
 interface SafeHtmlProps {
@@ -8,7 +8,8 @@ interface SafeHtmlProps {
 
 const SafeHtml: React.FC<SafeHtmlProps> = ({ htmlString }) => {
     const createMarkup = (html: string) => {
-        return { __html: DOMPurify.sanitize(html) };
+        // @ts-ignore
+        return { __html: sanitize(html) };
     };
 
     return <div dangerouslySetInnerHTML={createMarkup(htmlString)} />;
