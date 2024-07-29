@@ -20,9 +20,9 @@ export default function About() {
             id="about"
         >
             <SectionHeading>About me</SectionHeading>
-            <p className="mb-3">
+            <div className="mb-3">
                 <SafeHtml htmlString={aboutMe} />
-            </p>
+            </div>
         </motion.section>
     );
 }

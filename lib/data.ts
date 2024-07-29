@@ -39,41 +39,19 @@ export const experiencesData = [
         title: "United IT Company",
         location: "Tashkent, Uzbekistan",
         description: `
-        - Successfully managed and supported four distinct projects, ensuring timely delivery and high-quality outcomes.<br/>
-        - Designed and implemented robust APIs using Django Rest Framework, Celery, and Redis to facilitate seamless data integration and communication<br/>
-        - Created and maintained advanced Telegram Bots leveraging Python Telegram Bot, Django, PostgreSQL, and Celery for enhanced user interaction and automation.<br/>
-        - Developed and optimized complex database queries to generate insightful analytical data, improving decision-making processes.<br/>
-        - Identified, troubleshot, and resolved software bugs to enhance system reliability and performance.<br/>
-        - Enhanced database performance by optimizing queries, reducing execution times, and improving efficiency.<br/>
-        - Engineered effective database architectures to efficiently store and manage data collections, ensuring data integrity and accessibility.<br/>
+        <ul class="max-w-md space-y-1 list-disc">
+            <li>Successfully managed and supported four distinct projects, ensuring timely delivery and high-quality outcomes.</li>
+            <li>Designed and implemented robust APIs using Django Rest Framework, Celery, and Redis to facilitate seamless data integration and communication</li>
+            <li>Created and maintained advanced Telegram Bots leveraging Python Telegram Bot, Django, PostgreSQL, and Celery for enhanced user interaction and automation.</li>
+            <li>Developed and optimized complex database queries to generate insightful analytical data, improving decision-making processes.</li>
+            <li>Identified, troubleshot, and resolved software bugs to enhance system reliability and performance.</li>
+            <li>Enhanced database performance by optimizing queries, reducing execution times, and improving efficiency.</li>
+            <li>Engineered effective database architectures to efficiently store and manage data collections, ensuring data integrity and accessibility.</li>
+        </ul>
         `,
         icon: React.createElement(CgWorkAlt),
-        date: "2024",
+        date: "Feb 2024 - present",
     },
-    // {
-    //   title: "Graduated bootcamp",
-    //   location: "Miami, FL",
-    //   description:
-    //     "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    //   icon: React.createElement(LuGraduationCap),
-    //   date: "2019",
-    // },
-    // {
-    //   title: "Front-End Developer",
-    //   location: "Orlando, FL",
-    //   description:
-    //     "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    //   icon: React.createElement(CgWorkAlt),
-    //   date: "2019 - 2021",
-    // },
-    // {
-    //   title: "Full-Stack Developer",
-    //   location: "Houston, TX",
-    //   description:
-    //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    //   icon: React.createElement(FaReact),
-    //   date: "2021 - present",
-    // },
 ] as const;
 
 export const projectsData = [
@@ -85,27 +63,6 @@ export const projectsData = [
         imageUrl: quizziorImg,
         github: "https://github.com/AbdurahmonAbdulxakimov/quizzior",
     },
-    // {
-    //     title: "CorpComment",
-    //     description:
-    //         "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    //     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    //     imageUrl: corpcommentImg,
-    // },
-    // {
-    //     title: "rmtDev",
-    //     description:
-    //         "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    //     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    //     imageUrl: rmtdevImg,
-    // },
-    // {
-    //     title: "Word Analytics",
-    //     description:
-    //         "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    //     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    //     imageUrl: wordanalyticsImg,
-    // },
 ] as const;
 
 export const skillsData = [

@@ -27,6 +27,7 @@ export default function Experience() {
                 {experiencesData.map((item, index) => (
                     <React.Fragment key={index}>
                         <VerticalTimelineElement
+                            visible={true}
                             contentStyle={{
                                 background:
                                     theme === "light"
@@ -57,7 +58,7 @@ export default function Experience() {
                                 {item.title}
                             </h3>
                             <p className="font-normal !mt-0">{item.location}</p>
-                            <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                            <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 list-disc">
                                 <SafeHtml htmlString={item.description} />
                             </p>
                         </VerticalTimelineElement>
